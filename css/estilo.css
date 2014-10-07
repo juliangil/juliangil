@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+@font-face {
+  font-family: UniversLTStd-Bold;
+  src: url("../fonts/UniversLTStd-Bold") format('opentype');
+  font-family: UniversLTStd-BoldCnObl;
+  src: url("../fonts/UniversLTStd-BoldCnObl") format('opentype');
+}
+header {
+  background: url("../img/frameSup.png") no-repeat;
+  background-size: 100%;
+  margin: 10px 0px 10px 10px;
+  width: 98%;
+  border: 1px solid #f00;
+}
+header div#titulo {
+  position: relative;
+  border: 1px solid #008000;
+  padding: 1% 0% 4.5% 5%;
+}
+header div#titulo h1 {
+  margin: 0%;
+  position: relative;
+  margin-top: 1.2%;
+  border: 1px solid #808080;
+}
+header div#titulo h2 {
+  position: relative;
+  margin: 0%;
+  top: 50%;
+  border: 1px solid #00f;
+}
+header div#subtitulo {
+  position: relative;
+  border: 1px solid #008000;
+  padding: 0% 0% 0% 5%;
+}
+header div#subtitulo h2 {
+  position: relative;
+  margin: 0%;
+  border: 1px solid #00f;
+}
+.fuenteLetra1 {
+  font-family: UniversLTStd-Bold, Arial;
+  font-weight: bold;
+  font-size: 200%;
+  color: #ff1493;
+  text-align: left;
+}
+.fuenteLetra2 {
+  font-family: UniversLTStd-Bold, Arial;
+  font-size: 125%;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+}
+.fuenteLetra3 {
+  font-family: UniversLTStd-Bold, Arial;
+  font-size: 125%;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+}
+/* Por debajo de 400px */
+@media screen and (max-width: 400px) {
+  header {
+    background-size: 175% 120%;
+  }
+  body {
+    font-size: 60%;
+  }
+  header div#subtitulo h2 {
+    font-size: 50%;
+  }
+}
+/*TABLETAS*/
+@media screen and (min-width: 700px) {
+}
+/*PANTALLAS DE ESCRITORIO*/
+/*@media screen and (min-width: 950px)
+
+	
+	
+/*
+#frameSuperior
+	background url('frameSup.png')
+	background-repeat no-repeat
+	background-size 100% 
+	padding 50px 50px
+	white-space normal
+	border solid
+
+	
+
+@font-face 
+	font-family UniversLTStd-Bold
+	src url(UniversLTStd-Bold) format('opentype')
+
+	font-family UniversLTStd-BoldCnObl
+	src url(fonts/UniversLTStd-BoldCnObl) format('opentype')
+	//truetype
+
+#div1
+	position absolute
+	z-index 1
+	width auto
+	height 70px
+	left 65px
+	top 0px
+
+
+
+#div2
+	position absolute
+	z-index 1
+	width auto
+	height 70px
+	left 65px
+	top 40px
+
+.
+
+#div3
+	position absolute
+	z-index 1
+	width auto
+	height 70px
+	left 65px
+	top 109px
+
+
+
+#divLogoOms
+	position absolute
+	top 195px
+	left 35px
+
+#divFoto1
+	position absolute
+	top 195px
+	left 250px	
+
+
+#div4
+	position absolute
+	top 600px
+	left 35px
+
+.fuenteLetra4 
+	font-family UniversLTStd-BoldCnObl
+	font-size 11px
+	color SteelBlue
+	text-align left
+	*/
